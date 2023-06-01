@@ -1,0 +1,151 @@
+body {
+    background-color: aqua;
+    margin-bottom: 100px;
+}
+p {
+    font-family: Roboto, arial ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.f-image{
+    opacity: 0.7;    
+    height:500px; 
+    width:500px;
+    border-radius: 10px;
+}
+.first-in {
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    width: 300px; 
+}
+.sec-in {
+    border: none;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.third-in {
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    width: 650px; 
+}
+.forth-in {
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    width: 650px; 
+}
+.signup-button {
+    background-color: rgb(143, 104, 137);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.15s;
+}
+.signup-button:active {
+    opacity: 0.15;
+}
+.sign-button {
+    background-color: blue;
+    color: white;
+    margin-left: 50px;
+    border: none; 
+    border-radius: 30px; 
+    padding: 15px;
+    cursor: pointer; 
+    width: 150px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.15s;
+}
+.sign-button:active {
+    opacity: 0.15;
+}
+.intro-par {
+    text-align: center; 
+    font-size: 30px; 
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+.image-div {
+    display: inline-block;
+    width: 500px;
+    margin-right: 30px;
+    
+}
+.input-div {
+    display: inline-block;
+    vertical-align: top;
+}
+.continue-par {
+    background-color: antiquewhite;
+    color: rgb(155, 30, 30);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.firstin-div,
+.secondin-div {
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+}
+.firstin-div{
+    margin-right: 5px;
+}
+.thirdin-div,
+.fourthin-div {
+    display: block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+}
+.thirdin-div {
+    margin-bottom: 30px;
+}
+.fourthin-div {
+    margin-bottom: 50px;
+}
+.fsin-div {
+    margin-bottom: 30px;
+}
+.intro-div {
+    padding: 20px;
+    margin-bottom: 30px;
+    display: block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+}
+.cont-div {
+    margin-bottom: 50px;
+}
+.member-par {
+    color: gray;
+    font-weight: 700px;
+}
+.sign-div,
+.notmember-info {
+    display: inline-block;
+}
+.member-div,
+.signup-div {
+    display: inline-block;
+}
+.sign-div {
+    margin-right: 10px;
+}
+.member-div {
+    margin-right: 10px;
+}
